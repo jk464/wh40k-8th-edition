@@ -514,6 +514,23 @@
         <categoryLink id="45db-e38f-9f9f-450f" name="Heavy Support" hidden="false" targetId="abf5fd55-9ac7-4263-8bc1-a9fb0a8fa6a6" primary="true"/>
       </categoryLinks>
     </entryLink>
+    <entryLink id="190c-ff11-5cb3-1661" name="Field Ordnance Battery" hidden="false" collective="false" import="true" targetId="3bdb-dd38-230a-b5b9" type="selectionEntry">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="0735-ed55-e421-7b73" type="greaterThan"/>
+          </conditions>
+        </modifier>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="forces" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="a207-a133-6adb-25f3" type="greaterThan"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <categoryLinks>
+        <categoryLink id="a612-aa3f-a6fb-24a6" name="New CategoryLink" hidden="false" targetId="abf5fd55-9ac7-4263-8bc1-a9fb0a8fa6a6" primary="true"/>
+      </categoryLinks>
+    </entryLink>
     <entryLink id="e71e-bfe9-bf1e-a576" name="Doomhammer" hidden="false" collective="false" import="true" targetId="7d45-082d-92d1-fb27" type="selectionEntry">
       <modifiers>
         <modifier type="set" field="hidden" value="true">
